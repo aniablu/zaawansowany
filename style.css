@@ -4,6 +4,8 @@ body{
 
 main{
     display: flex;
+    align-items: center;
+
 }
 
 .content{
