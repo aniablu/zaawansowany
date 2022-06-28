@@ -1,0 +1,28 @@
+body{
+    background-color: antiquewhite;
+}
+
+main{
+    display: flex;
+}
+
+.content{
+    flex:1;
+    display:flex;
+    justify-content: center;
+}
+
+.leftArr,
+.rightArr{
+    border:2px dashed red;
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #fff
+}
+
+footer{
+    text-align:right;
+    margin-top: 4rem;
+}
+
